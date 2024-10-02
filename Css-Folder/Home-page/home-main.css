@@ -27,7 +27,7 @@ body{
     padding: 20px;
     box-shadow: 0px 0px 10px -5px black;
     height: 100vh;
-    width: 180px;
+    width: 120px;
 }
 
 .sidebar h3{
@@ -69,6 +69,7 @@ body{
     position: relative;
     padding: 10px 10px 10px 25px;
     font-size: 15px;
+    border-radius: 10px;
     transition: .3s;
 
 }
@@ -76,11 +77,80 @@ body{
 .sidebar p:hover{
 
     background-color: #cccccc7e;
-    border-radius: 10px;
 
 }
 
-.sidebar a:nth-child(1) p::before{
+.sidebar a:nth-child(2) p::before{
+
+    font: var(--fa-font-solid);
+    content: '\f001';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    font-size: 15px;
+
+}
+.sidebar a:nth-child(3) p::before{
+
+    font: var(--fa-font-solid);
+    content: '\f002';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    font-size: 15px;
+
+}
+.sidebar a:nth-child(4) p::before{
+
+    font: var(--fa-font-solid);
+    content: '\f003';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    font-size: 15px;
+
+}
+.sidebar a:nth-child(5) p::before{
+
+    font: var(--fa-font-solid);
+    content: '\f004';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    font-size: 15px;
+
+}
+.sidebar a:nth-child(6) p::before{
+
+    font: var(--fa-font-solid);
+    content: '\f005';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    font-size: 15px;
+
+}
+.sidebar a:nth-child(7) p::before{
+
+    font: var(--fa-font-solid);
+    content: '\f0014';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    font-size: 15px;
+
+}
+.sidebar a:nth-child(8) p::before{
+
+    font: var(--fa-font-solid);
+    content: '\f007';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    font-size: 15px;
+
+}
+.sidebar a:nth-child(9) p::before{
 
     font: var(--fa-font-solid);
     content: '\f008';
@@ -88,4 +158,5 @@ body{
     left: 5px;
     top: 11px;
     font-size: 15px;
+
 }
