@@ -14,13 +14,13 @@ body{
 
 }
 
-.Home-page{
+.sidebar-and-header-style{
 
     display: flex;
 
 }
 
-.Home-page .sidebar{
+.sidebar-and-header-style .sidebar{
 
     display: flex;
     flex-direction: column;
@@ -28,14 +28,23 @@ body{
     box-shadow: 0px 0px 10px -5px black;
     height: 100vh;
     width: 120px;
+
+}
+
+@media(max-width:600px){
+.sidebar-and-header-style .sidebar{
+
+    width: 90px;
+
+}
 }
 
 .sidebar h3{
 
     position: relative;
     width: fit-content;
-    margin: 0px auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 10px;
 
 }
 
@@ -43,191 +52,62 @@ body{
 
     content: "";
     position: absolute;
-    bottom: 8px;
+    bottom: -5px;
     left: 0px;
     width: 100%;
     height: 2px;
     background-color: black;
 }
 
+@media(max-width:600px){
+.sidebar h3::before{
+
+    display: none;
+
+}
+}
+
 .sidebar h3::after{
 
     content: "";
     position: absolute;
-    bottom: 3px;
+    bottom: -10px;
     left: 43%;
     height: 8px;
     width: 8px;
     border: 2px solid black;
     border-radius: 50%;
-    background-color: white;
+    background-color: black;
 
 }
 
-.sidebar p{
-
-    position: relative;
-    padding: 10px 10px 10px 25px;
-    font-size: 15px;
-    border-radius: 10px;
-    transition: .3s;
-
-}
-
-@media(max-width:800px){
-.sidebar p{
-
-    display:none
-
+@media(max-width:600px){
+.sidebar h3::after{
+    
+    display: none;
+    
 }
 }
 
-.sidebar p:hover{
-
-    background-color: #cccccc7e;
-
-}
-
-.sidebar a:nth-child(2) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f001';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-.sidebar a:nth-child(3) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f002';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-.sidebar a:nth-child(4) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f003';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-.sidebar a:nth-child(5) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f004';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-.sidebar a:nth-child(6) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f005';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-.sidebar a:nth-child(7) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f000';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-.sidebar a:nth-child(8) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f007';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-.sidebar a:nth-child(9) p::before{
-
-    font: var(--fa-font-solid);
-    content: '\f008';
-    position: absolute;
-    left: 5px;
-    top: 11px;
-    font-size: 15px;
-
-}
-
-header{
+.sidebar a{
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-
-}
-
-header div{
-
-    width:200px;
-
-}
-
-header .input{
-
-    position: relative;
-
-}
-
-header .input::before{
-
-    font: var(--fa-font-solid);
-    content: '\f002';
-    position: absolute;
-    left: 8px;
-    top: 16px;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.432);
-
-}
-
-header input{
-
-    padding: 15px 25px;
-    border-color: rgba(0, 0, 0, 0.151);
+    gap: 10px;
+    padding: 10px;
     border-radius: 10px;
-    width:70%;
-    transition: .3s;
+    transition: .5s;
 
 }
 
-.input input:hover{
+.sidebar a:hover{
 
-    width:100%;
+    background-color: #eee;
 
 }
 
-header input:focus{
+@media(max-width:600px){
+.sidebar a p{
 
-    outline: none;
-    border-color: rgba(0, 0, 0, 0.151);
-
+    display: none;
+}
 }
