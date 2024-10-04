@@ -1,3 +1,11 @@
+:root{
+
+    --lrgeFont:15px;
+    --smallFont:13px;
+    --timeOftransition: .3s;;
+
+}
+
 *{
 
     margin: 0px;
@@ -28,13 +36,16 @@ body{
     box-shadow: 0px 0px 10px -5px black;
     height: 100vh;
     width: 120px;
+    font-size: var(--lrgeFont);
 
 }
 
 @media(max-width:600px){
 .sidebar-and-header-style .sidebar{
 
-    width: 90px;
+    padding: 10px;
+    width: 50px;
+    font-size: var(--smallFont);
 
 }
 }
@@ -46,6 +57,16 @@ body{
     margin: 20px auto;
     padding: 10px;
 
+}
+
+@media(max-width:600px){
+.sidebar h3{
+
+    width: fit-content;
+    margin: 5px auto;
+    padding: 0px;
+
+}
 }
 
 .sidebar h3::before{
@@ -95,7 +116,7 @@ body{
     gap: 10px;
     padding: 10px;
     border-radius: 10px;
-    transition: .5s;
+    transition: var(--timeOftransition);
 
 }
 
@@ -110,4 +131,56 @@ body{
 
     display: none;
 }
+}
+
+.sidebar-and-header-style header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+header div:first-child{
+
+    position: relative;
+
+}
+
+header div::before{
+
+    font-family: var(--fa-style-family-classic);
+    content: "\f002";
+    font-weight: 900;
+    position: absolute;
+    left: 22px;
+    top: 35px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color:gray;
+
+}
+
+header input{
+
+    padding: 10px;
+    margin: 15px;
+    border-color: rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    transition: var(--timeOftransition);
+
+}
+
+header input:focus{
+
+    padding: 10px 15px;
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.151);
+
+}
+
+header input::placeholder{
+
+    padding-left: 10px;
+
 }
