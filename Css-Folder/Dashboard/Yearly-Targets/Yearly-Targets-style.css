@@ -1,0 +1,221 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Yearly-Targets{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display:grid;
+    gap:15px;
+
+}
+
+.Yearly-Targets p{
+
+    padding: 10px 0px;
+    color: #777777d0;
+
+}
+
+.Yearly-Targets .target-row{
+
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+
+.Yearly-Targets .Orange-row i{
+
+    padding: 30px;
+    color: orangered;
+    background-color: rgba(255, 68, 0, 0.637);
+    border-radius: 10px;
+
+}
+
+.Yearly-Targets .green-target i{
+
+    padding: 30px;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.301);
+    border-radius: 10px;
+
+}
+
+.Yearly-Targets .purple-target i{
+
+    padding: 30px;
+    color: purple;
+    background-color: rgba(128, 0, 128, 0.301);
+    border-radius: 10px;
+
+}
+
+.Yearly-Targets .target-row .text{
+
+    display: grid;
+    width: 100%;
+
+}
+
+.Yearly-Targets .target-row .text h3{
+
+    position: relative;
+
+}
+
+.Yearly-Targets .Orange-row  .text h3::before{
+
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    width: 80%;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+
+}
+
+.Yearly-Targets .Orange-row  .text span{
+
+    position: relative;
+    height: 5px;
+    margin:10px 0px;
+    background-color: rgba(255, 68, 0, 0.295);
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.Yearly-Targets .Orange-row  .text span::before{
+
+    content: "80%";
+    position: absolute;
+    font-size: 14px;
+    left: 75%;
+    top:-35px;
+    padding:5px;
+    color:white;
+    background: orangered;
+    border-radius: 10%;
+}
+
+.Yearly-Targets .Orange-row .text span::after{
+
+    content: "";
+    position: absolute;
+    font-size: 14px;
+    left: 77%;
+    top: -13px;
+    border-color: orangered transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+
+}
+
+.Yearly-Targets .green-target .text h3::before{
+
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    width: 55%;
+    height: 5px;
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+.Yearly-Targets .green-target .text span{
+
+    position: relative;
+    height: 5px;
+    margin:10px 0px;
+    background-color: rgba(0, 128, 0, 0.308);
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.Yearly-Targets .green-target .text span::before{
+
+    content: "75%";
+    position: absolute;
+    font-size: 14px;
+    left: 50%;
+    top:-35px;
+    padding:5px;
+    color:white;
+    background: green;
+    border-radius: 10%;
+}
+
+.Yearly-Targets .green-target .text span::after{
+
+    content: "";
+    position: absolute;
+    font-size: 14px;
+    left: 52%;
+    top: -13px;
+    border-color: green transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+
+}
+
+.Yearly-Targets .purple-target .text h3::before{
+
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    width: 60%;
+    height: 5px;
+    background-color: purple;
+    border-radius: 10px;
+
+}
+
+.Yearly-Targets .purple-target .text span{
+
+    position: relative;
+    height: 5px;
+    margin:10px 0px;
+    background-color: rgba(128, 0, 128, 0.308);
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.Yearly-Targets .purple-target .text span::before{
+
+    content: "60%";
+    position: absolute;
+    font-size: 14px;
+    left: 55%;
+    top:-35px;
+    padding:5px;
+    color:white;
+    background: purple;
+    border-radius: 10%;
+}
+
+.Yearly-Targets .purple-target .text span::after{
+
+    content: "";
+    position: absolute;
+    font-size: 14px;
+    left: 57%;
+    top: -13px;
+    border-color: purple transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+
+}
