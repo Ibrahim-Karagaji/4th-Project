@@ -1,0 +1,70 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.Latest-Tasks{
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.Latest-Tasks .tasks{
+
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+
+.Latest-Tasks .tasks .task{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #7777775d;
+    padding-bottom: 10px;
+
+}
+
+.Latest-Tasks .tasks .deleted{
+
+    filter: contrast(0%);
+
+}
+
+.Latest-Tasks .tasks .task div{
+
+    display: grid;
+    gap: 5px;
+    width: 90%;
+
+}
+
+.Latest-Tasks .tasks .task div h3{
+
+    font-weight: 100;
+
+}
+
+.Latest-Tasks .tasks .task div p{
+
+    color:#777777a9;
+
+}
+
+.Latest-Tasks .tasks .task i{
+
+    transition: .3s;
+
+}
+
+.Latest-Tasks .tasks .task i:hover{
+
+    color: red;
+
+}
