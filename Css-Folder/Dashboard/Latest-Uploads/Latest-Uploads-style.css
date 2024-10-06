@@ -1,0 +1,71 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.Latest-Uploads{
+
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.Latest-Uploads h2{
+
+    margin-bottom: 15px;
+
+}
+
+.Latest-Uploads .Uploads{
+
+    display:grid;
+    gap: 10px;
+
+}
+
+.Latest-Uploads .Upload{
+
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #7777772d;
+    padding-bottom: 10px;
+
+}
+
+.Latest-Uploads .Upload img{
+
+    width: 40px;
+
+}
+
+.Latest-Uploads .Upload div{
+
+    display:grid;
+    gap: 5px;
+
+}
+
+.Latest-Uploads .Upload div h3{
+
+    font-weight: 100;
+
+}
+
+.Latest-Uploads .Upload div p{
+
+    color: #777777a9;
+
+}
+
+.Latest-Uploads .Upload span{
+
+    background-color: #77777744;
+    padding:5px;
+    margin-left: auto;
+    border-radius: 10px;
+    font-size: 12px;
+}
