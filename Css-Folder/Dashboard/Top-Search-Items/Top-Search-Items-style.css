@@ -1,0 +1,43 @@
+*{
+
+    padding: 0px ;
+    margin: 0px;
+
+}
+
+.Top-Search-Items{
+
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.Top-Search-Items h3{
+
+    padding-bottom: 20px;
+
+}
+
+.Top-Search-Items div{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+    
+}
+
+.Top-Search-Items .title{
+
+    color: #777777de;
+
+}
+
+.Top-Search-Items div span{
+
+    background-color: #7777772c;
+    padding: 5px;
+    border-radius: 10px;
+
+}
