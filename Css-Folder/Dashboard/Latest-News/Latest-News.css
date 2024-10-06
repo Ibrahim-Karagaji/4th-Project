@@ -31,7 +31,7 @@
 
 }
 
-@media(max-width:800px){
+@media(max-width:900px){
 .News-info .info{
 
     display: flex;
@@ -57,6 +57,12 @@
 .News-info .info .text p{
 
     color: #777777d0;
+
+}
+
+.News-info .info .text h3{
+
+    font-weight: 100;
 
 }
 
