@@ -1,0 +1,171 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.Social-Media-Stats{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.Social-Media-Stats h2{
+
+    padding-bottom: 10px;
+
+}
+
+.Social-Media-Stats .app{
+
+    display: grid;
+    gap: 10px;
+
+}
+
+.Social-Media-Stats .app .twitter{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1da0f274;
+
+}
+
+.Social-Media-Stats .app .twitter i{
+
+    padding:10px;
+    color: white;
+    background-color: #1da0f2;
+    width: 7%;
+    text-align: center;
+
+}
+
+.Social-Media-Stats .app .twitter p{
+
+    color: #1da0f2;
+
+}
+
+.Social-Media-Stats .app .twitter span{
+
+    padding: 5px;
+    color: white;
+    background-color: #1da0f2;
+    font-size: 15px;
+    margin: auto 10px auto auto;
+    border-radius: 10px;
+
+}
+
+.Social-Media-Stats .app .facebook{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1876f275;
+
+}
+
+.Social-Media-Stats .app .facebook i{
+
+    padding:10px;
+    color: white;
+    background-color: #1877f2;
+    width: 7%;
+    text-align: center;
+
+}
+
+.Social-Media-Stats .app .facebook p{
+
+    color: #1877f2;
+
+}
+
+.Social-Media-Stats .app .facebook span{
+
+    padding: 5px;
+    color: white;
+    background-color: #1877f2;
+    font-size: 15px;
+    margin: auto 10px auto auto;
+    border-radius: 10px;
+
+}
+
+.Social-Media-Stats .app .youtube{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ff000068;
+
+}
+
+.Social-Media-Stats .app .youtube i{
+
+    padding:10px;
+    color: white;
+    background-color: #ff0000;
+    width: 7%;
+    text-align: center;
+
+}
+
+.Social-Media-Stats .app .youtube p{
+
+    color: #ff0000;
+
+}
+
+.Social-Media-Stats .app .youtube span{
+
+    padding: 5px;
+    color: white;
+    background-color: #ff0000;
+    font-size: 15px;
+    margin: auto 10px auto auto;
+    border-radius: 10px;
+
+}
+
+.Social-Media-Stats .app .linkedin{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #0076b571;
+
+}
+
+.Social-Media-Stats .app .linkedin i{
+
+    padding:10px;
+    color: white;
+    background-color: #0077b5;
+    width: 7%;
+    text-align: center;
+
+}
+
+.Social-Media-Stats .app .linkedin p{
+
+    color: #0077b5;
+
+}
+
+.Social-Media-Stats .app .linkedin span{
+
+    padding: 5px;
+    color: white;
+    background-color: #0077b5;
+    font-size: 15px;
+    margin: auto 10px auto auto;
+    border-radius: 10px;
+
+}
