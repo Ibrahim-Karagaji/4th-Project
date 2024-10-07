@@ -31,7 +31,7 @@
 
 }
 
-@media(max-width:900px){
+@media(max-width:1000px){
 .News-info .info{
 
     display: flex;
@@ -68,7 +68,7 @@
 
 .News-info .info span{
 
-    background-color: #77777746;
+    background-color: #7777772d;
     padding: 5px;
     border-radius: 10px;
     font-size: 15px;
@@ -76,7 +76,7 @@
 
 }
 
-@media(max-width:800px){
+@media(max-width:1000px){
 .News-info .info span{
     
     margin: 0px auto;

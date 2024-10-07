@@ -1,0 +1,135 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+@keyframes background-animation {
+
+0% {
+    background-color: orangered;
+}
+    
+25% {
+    background-color: transparent;
+}
+    
+50%{
+    background-color: orangered;
+}
+    
+75%{
+    
+    background-color: transparent;
+        
+}    
+        
+100%{
+    background-color: orangered;
+}
+}
+
+.Last-Project-Progress{
+    
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.Last-Project-Progress h2{
+    
+    margin-bottom: 15px;
+
+}
+
+.Last-Project-Progress div{
+    
+    position: relative;
+    margin: 30px;
+
+}
+
+.Last-Project-Progress div::before{
+    
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: -3px;
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+    border: solid 2px white;
+    outline: solid 2px orangered;
+
+}
+
+.Last-Project-Progress .spical::before{
+    
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: -3px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    outline: solid 2px orangered;
+
+}
+
+.Last-Project-Progress .active::before{
+    
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: -3px;
+    width: 20px;
+    height: 20px;
+    animation-name: background-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    outline: solid 2px orangered;
+
+}
+
+.Last-Project-Progress div::after{
+    
+    content: "";
+    position: absolute;
+    left: -19px;
+    top: 23px;
+    height: 20px;
+    width: 2px;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+.Last-Project-Progress .spical::after{
+    
+    position: static;
+
+}
+
+.Last-Project-Progress img{
+    
+    position: absolute;
+    width: 355px;
+    right: 17%;
+    bottom: 0%;
+    filter: opacity(20%);
+
+}
+
+@media(max-width:500px){
+.Last-Project-Progress img{
+    
+    display: none;
+
+}
+}
