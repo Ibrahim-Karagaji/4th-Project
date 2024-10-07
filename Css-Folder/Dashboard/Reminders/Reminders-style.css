@@ -1,0 +1,140 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.Reminders{
+
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.Reminders div{
+
+    position: relative;
+    margin: 30px 30px 5px;
+    display: grid;
+    gap: 5px;
+
+}
+
+.Reminders .orangered::before{
+
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: orangered;
+    border-radius: 50%;
+
+}
+
+.Reminders .orangered::after{
+
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    height: 45px;
+    width: 3px;
+    background-color: orangered;
+    border-radius: 10px;
+
+}
+
+.Reminders .purple::before{
+
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: purple;
+    border-radius: 50%;
+
+}
+
+.Reminders .purple::after{
+
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    height: 45px;
+    width: 3px;
+    background-color: purple;
+    border-radius: 10px;
+
+}
+
+.Reminders .blue::before{
+
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+
+.Reminders .blue::after{
+
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    height: 45px;
+    width: 3px;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+.Reminders .green::before{
+
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+.Reminders .green::after{
+
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    height: 45px;
+    width: 3px;
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+.Reminders div h3{
+
+    font-weight: 100;
+
+}
+
+.Reminders div p{
+
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.877);
+
+}
