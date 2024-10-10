@@ -1,0 +1,114 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.project{
+
+    margin: 0px 30px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+@media(max-width: 1000px){
+.project{
+
+    margin: 0px 10px 30px;
+
+}
+}
+
+.project h2{
+
+    margin: 20px 0px;
+
+}
+
+table{
+
+    margin: 10px;
+    border-spacing: 0;
+    overflow: auto;
+    width: 100%;
+
+}
+
+table thead{
+
+    background-color: #eee;
+
+}
+
+table tr:hover{
+
+    background-color: #cccccc23;
+
+}
+
+table td{
+
+    padding: 20px;
+    border: #cccccc73 1px solid;
+    transition: .3s;
+
+}
+
+tbody tr:nth-child(1) td:last-child p{
+
+    color: white;
+    background-color: #ffa300;
+    padding:10px 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+
+tbody tr:nth-child(2) td:last-child p{
+
+    color: white;
+    background-color: #2516ff;
+    padding:10px 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+
+tbody tr:nth-child(3) td:last-child p, tr:nth-child(4) td:last-child p, tr:nth-child(6) td:last-child p{
+
+    color: white;
+    background-color: rgb(61, 207, 61);
+    padding:10px 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+
+tbody tr:nth-child(5) td:last-child p{
+
+    color: white;
+    background-color: rgb(243, 53, 53);
+    padding:10px 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+
+table img{
+
+    text-align: center;
+    width: 30px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+    margin: -12px;
+
+}
