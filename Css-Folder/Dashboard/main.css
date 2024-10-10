@@ -1,7 +1,25 @@
+@import url(../SideBar-and-header/header.css);
+@import url(../SideBar-and-header/sidebar.css);
+@import url(greeting/greeting-style.css);
+@import url(greeting/greeting-style.css);
+@import url(Last-Project-Progress/Last-Project-Progress-style.css);
+@import url(Latest-News/Latest-News.css);
+@import url(Latest-Post/Latest-Post-style.css);
+@import url(Latest-Tasks/Latest-Tasks-style.css);
+@import url(Latest-Uploads/Latest-Uploads-style.css);
+@import url(project/project-style.css);
+@import url(Quick-Draft/Quick-Draft.css);
+@import url(Reminders/Reminders-style.css);
+@import url(Social-Media-Stats/Social-Media-Stats-style.css);
+@import url(Tickets-Statistics/Tickets-Statistics-style.css);
+@import url(Top-Search-Items/Top-Search-Items-style.css);
+@import url(Yearly-Targets/Yearly-Targets-style.css);
+
 *{
 
     margin: 0px;
     padding: 0px;
+    font-size: 15px;
 
 }
 
