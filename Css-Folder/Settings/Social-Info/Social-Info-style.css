@@ -5,3 +5,52 @@
     padding: 10px;
 
 }
+
+.Social-Info div{
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 30px 0px;
+    background-color: #f6f6f6;
+
+}
+
+.Social-Info div i{
+
+    color:rgba(0, 0, 0, 0.432);
+    padding: 10px;
+    border-right: #ccc solid 1px;
+    transition: .3s;
+
+}
+
+.Social-Info div input{
+
+    border: transparent;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+
+}
+
+.Social-Info div input:focus{
+
+    outline: none;
+
+}
+
+.Social-Info div input::placeholder{
+
+    color: rgba(0, 0, 0, 0.432);
+
+}
+
+.Social-Info div input:focus + i{
+
+    color: black;
+
+}
