@@ -1,7 +1,77 @@
 .Site-Control{
 
+    position: relative;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+
+}
+
+.Site-Control::before{
+
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    background-color: orangered;
+    border-radius: 30px;
+    right: 9px;
+    top: 98px;
+    transition: .3s;
+
+}
+
+.Site-Control:hover::before{
+
+    background-color: #ccc;
+
+}
+
+.Site-Control::after{
+
+    content: "✔";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    background-color: white;
+    border-radius: 50%;
+    right: 10px;
+    top: 100px;
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+    transition: .3s;
+
+}
+
+.Site-Control:hover::after{
+
+    content:'✖';
+    color: #ccc;
+    transform: translate(-31px,0px);
+
+}
+
+.Site-Control div{
+
+    display: grid;
+    gap: 10px;
+    margin: 20px 0px;
+
+}
+
+textarea{
+
+    resize: none; 
+    border-color:#ccc;
+    border-radius: 10px;
+    min-width: 95%;
+    font-size: 13px;
+    padding: 10px;
+}
+
+textarea:focus{
+
+    outline-color: #ccc;
 
 }
