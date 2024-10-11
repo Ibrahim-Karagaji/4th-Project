@@ -1,0 +1,44 @@
+.Security-Info{
+
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.Security-Info div{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+
+.Security-Info div div{
+
+    display: grid;
+    gap: 5px;
+
+}
+
+.Security-Info div div span{
+
+    font-size: 18px;
+
+}
+
+.Security-Info div div p{
+
+    font-size: 13px;
+
+}
+
+.Security-Info div:nth-child(3) a{
+
+    padding: 10px;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+
+}
