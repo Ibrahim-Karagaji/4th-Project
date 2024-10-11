@@ -1,0 +1,22 @@
+.Widgets-Control{
+
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.Widgets-Control form{
+
+    margin: 10px 0px;
+    display: grid;
+    gap: 10px;
+
+}
+
+.Widgets-Control form label{
+
+    font-size: 17px;
+    margin: 10px 0px;
+
+}
