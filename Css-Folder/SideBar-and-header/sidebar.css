@@ -107,6 +107,19 @@
     border-radius: 10px;
     transition: var(--timeOftransition);
     margin: 5px 0px;
+    text-decoration: none;
+
+} 
+
+.sidebar i{
+
+    color: black;
+
+}
+
+.sidebar p{
+
+    color: black;
 
 }
 
