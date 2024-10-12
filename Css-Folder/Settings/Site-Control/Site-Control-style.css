@@ -7,7 +7,7 @@
 
 }
 
-.Site-Control::before{
+.Site-Control div::before{
 
     content: "";
     position: absolute;
@@ -21,13 +21,13 @@
 
 }
 
-.Site-Control:hover::before{
+.Site-Control div:hover::before{
 
     background-color: #ccc;
 
 }
 
-.Site-Control::after{
+.Site-Control div::after{
 
     content: "✔";
     position: absolute;
@@ -44,7 +44,7 @@
 
 }
 
-.Site-Control:hover::after{
+.Site-Control div:hover::after{
 
     content:'✖';
     color: #ccc;
