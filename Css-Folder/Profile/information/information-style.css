@@ -1,17 +1,18 @@
 .information{
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     border-radius: 10px;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
 
 }
 
-@media(max-width: 800px){
+@media(max-width: 1004px){
 .information{
 
+    grid-template-columns: 1fr;
     margin: 10px;
 
 }
@@ -23,7 +24,19 @@
     text-align: center;
     justify-content: center;
     gap: 20px;
+    border-right: 1px solid #ccc;
+    margin: auto 0px;
 
+}
+
+@media(max-width: 1004px){
+.information .avatar-box{
+
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+    padding-bottom: 15px;
+
+}
 }
 
 .information .avatar-box img{
@@ -74,12 +87,6 @@
 
 }
 
-.information .avatar-box p{
-
-    color: #777777dc;
-
-}
-
 .information .avatar-box p:first-of-type{
 
     font-size: 18px;
@@ -92,4 +99,49 @@
 
 }
 
+.information .infoes{
 
+    display: grid;
+    margin: 0px 10px;
+    gap: 25px;
+
+}
+
+@media(max-width: 1100px){
+    .information .infoes{
+
+    text-align: center;
+
+}
+}
+
+.information .infoes .info{
+
+    margin: 10px 0px;
+
+}
+
+.information .infoes .info div{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    margin: 10px 0px;
+    position: relative;
+    
+}
+
+@media(max-width: 1100px){
+.information .infoes .info div{
+
+    flex-direction: column;
+
+}
+}
+
+.information .infoes .info div span{
+
+    color: black;
+    
+}
