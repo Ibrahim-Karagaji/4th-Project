@@ -1,0 +1,95 @@
+.information{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+@media(max-width: 800px){
+.information{
+
+    margin: 10px;
+
+}
+}
+
+.information .avatar-box{
+
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.information .avatar-box img{
+
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.information .avatar-box h2{
+
+    position: relative;
+
+}
+
+.information .avatar-box h2::before{
+
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -7px;
+    background: orangered;
+    height: 3px;
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+.information .avatar-box h2::after{
+
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -7px;
+    background: #ccc;
+    height: 3px;
+    width: 30%;
+    border-radius: 10px;
+
+}
+
+.information .avatar-box div{
+
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    color: gold;
+
+}
+
+.information .avatar-box p{
+
+    color: #777777dc;
+
+}
+
+.information .avatar-box p:first-of-type{
+
+    font-size: 18px;
+
+}
+
+.information .avatar-box p:last-of-type{
+
+    font-size: 13px;
+
+}
+
+
