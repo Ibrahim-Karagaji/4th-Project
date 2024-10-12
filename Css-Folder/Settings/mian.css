@@ -1,0 +1,104 @@
+@import url(../SideBar-and-header/header.css);
+@import url(../SideBar-and-header/sidebar.css);
+@import url(Backup-Manager/Backup-Manager-style.css);
+@import url(General-Info/General-Info-style.css);
+@import url(Security-Info/Security-Info-style.css);
+@import url(Site-Control/Site-Control-style.css);
+@import url(Social-Info/Social-Info-style.css);
+@import url(Widgets-Control/Widgets-Control-style.css);
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+
+}
+
+body{
+
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    
+}
+
+.header-and-content{
+
+    background-color: #7777771a;
+    width:100%;
+
+}
+    
+.content{
+
+    padding: 20px;
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+@media(max-width:1000px){
+.content{
+
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+}
+
+.content p{
+
+    color:#888;
+
+}
+
+h1{
+    
+    font-size: 30px;
+    margin: 30px 30px 50px;
+    position: relative;
+    width: fit-content;
+
+}
+
+h1::before{
+
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 35%;
+    bottom: -5px;
+    left: 0px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+h1::after{
+
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 65%;
+    bottom: -5px;
+    right: 0px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+h2{
+
+    padding: 15px 0px;
+    font-size: 25px;
+
+}
+
+input{
+
+    padding: 10px;
+
+}
