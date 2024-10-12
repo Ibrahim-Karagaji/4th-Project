@@ -1,0 +1,91 @@
+.Backup-Manager{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.Backup-Manager form{
+
+    margin: 35px 10px;
+    display: grid;
+    gap: 20px;
+
+}
+
+.Backup-Manager form input[type="radio"]{
+
+    transform: scale(1.4);
+    margin-right: 6px;
+    accent-color: orangered;
+    
+}
+
+.Backup-Manager label {
+
+    font-size: 17px;
+
+}
+
+.service{
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: #77777756 solid 1px;
+    padding: 20px 0px;
+
+}
+
+@media(max-width:800px){
+.service{
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+}
+
+.service div{
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: .3s;
+
+}
+
+.service div:hover{
+    
+    border: 1px solid orangered;
+
+}
+
+.service div i{
+    
+    font-size: 20px;
+
+}
+
+.service div:hover i{
+    
+    color: orangered;
+
+}
+
+.service div span{
+
+    font-weight: bold;
+
+}
+
+.service div:hover span{
+    
+    color: orangered;
+
+}
