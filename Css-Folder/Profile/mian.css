@@ -1,0 +1,112 @@
+@import url(../SideBar-and-header/header.css);
+@import url(../SideBar-and-header/sidebar.css);
+@import url(information/information-style.css);
+@import url(Activities/Activities-style.css);
+@import url(skills/skills-style.css);
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+
+}
+
+body{
+
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    
+}
+
+.header-and-content{
+
+    background-color: #7777771a;
+    width:100%;
+
+}
+    
+.content{
+
+    padding: 20px;
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+@media(max-width:1000px){
+.content{
+
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+}
+
+h1{
+    
+    font-size: 30px;
+    margin: 30px 30px 50px;
+    position: relative;
+    width: fit-content;
+
+}
+
+h1::before{
+
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 35%;
+    bottom: -5px;
+    left: 0px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+h1::after{
+
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 65%;
+    bottom: -5px;
+    right: 0px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+h2{
+
+    padding: 10px 0px;
+    font-size: 25px;
+
+}
+
+p{
+
+    color: #777777dc;
+
+}
+
+.skills-and-Activities{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20px;
+
+}
+
+@media(max-width: 900px){
+.skills-and-Activities{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+
+}
+}
