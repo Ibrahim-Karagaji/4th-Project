@@ -46,6 +46,15 @@
 
 }
 
+@media(max-width: 500px){
+.information .avatar-box img{
+
+    width: 150px;
+    margin: auto;
+
+}
+}
+
 .information .avatar-box h2{
 
     position: relative;
