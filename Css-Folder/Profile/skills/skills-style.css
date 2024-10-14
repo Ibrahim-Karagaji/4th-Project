@@ -1,0 +1,35 @@
+.skills{
+
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.skills .skills-type{
+
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin: 20px 0px;
+
+}
+
+.skills .skills-type div{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    width: 100%;
+
+}
+
+.skills .skills-type div span{
+
+    border-radius: 10px;
+    background-color: #cccccc8c;
+    padding: 5px;
+
+}
