@@ -1,7 +1,118 @@
 .box{
 
+    position: relative;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    overflow: hidden;
+
+}
+
+.box::before{
+
+    content: "15/10/2021";
+    position: absolute;
+    right: 10px;
+    opacity: 45%;
+    font-size: 14px;
+
+}
+
+.box img{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -10px;
+    border: 3px white solid;
+
+}
+
+.box img:hover{
+
+    z-index: 1;
+
+}
+
+.box div:first-of-type{
+
+    display: flex;
+    margin: 20px 0px;
+    padding: 0px 10px;
+
+}
+
+.box div:nth-child(4){
+
+    display:flex;
+    justify-content: end;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccca1 transparent;
+
+}
+
+@media(max-width:900px){
+.box div:nth-child(4){
+
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+}
+
+.box div:nth-child(4) span{
+
+    font-size: 13px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #7777773a;
+    border-radius: 10px;
+    letter-spacing: 1px;
+
+}
+
+@media(max-width:900px){
+.box div:nth-child(4) span{
+
+    width: fit-content;
+
+}
+}
+
+.box p:last-child{
+
+    position: relative;
+    text-align: end;
+    padding: 20px 0px;
+    font-size: 15px;
+
+}
+
+.box p:last-child::before{
+
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    height: 7px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: orangered;
+
+}
+
+.box p:last-child::after{
+
+    content: "";
+    position: absolute;
+    right: 55%;
+    top: 50%;
+    height: 7px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #eee;
 
 }
