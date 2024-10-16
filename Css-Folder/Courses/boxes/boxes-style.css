@@ -1,0 +1,84 @@
+.box{
+
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.box::before{
+
+    content: "";
+    position: absolute;
+    background-image: url(../../../images-Folder/team-01.png);
+    background-size: cover;
+    padding: 30px;
+    top: 20px;
+    border-radius: 50%;
+    left: 15px;
+
+}
+
+.box img{
+
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.box .title{
+
+    padding: 20px 10px;
+    border-width: 1px;
+    border-color: transparent transparent #cccccca2;
+    border-style: solid;
+    line-height: 1.5;
+    max-width: 100%;
+}
+
+.box .title h3{
+
+    padding-bottom: 10px;
+
+}
+
+.box .title p{
+
+    font-size: 14px;
+
+}
+
+.box div:nth-child(3){
+
+    position: relative;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+
+.box div:nth-child(3)::before{
+
+    content: "Course Info";
+    position: absolute;
+    top: -32px;
+    left: 40%;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 5px;
+
+}
+
+.box div:nth-child(3) div{
+
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #777777dc;
+
+}
