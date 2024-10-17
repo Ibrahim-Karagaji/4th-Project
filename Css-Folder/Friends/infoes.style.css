@@ -1,0 +1,143 @@
+.info{
+
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.info::before{
+
+    content: "\f095";
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-weight: 900;
+    font-family: var(--fa-style-family-classic);
+    background-color: #77777762;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 13px;
+    transition: .3s;
+}
+
+.info:hover::before{
+
+    background-color: orangered;
+
+}
+
+.info::after{
+
+    content: "\f0e0";
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-weight: 900;
+    font-family: var(--fa-style-family-classic);
+    background-color: #77777762;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 13px;
+    transition: .3s;
+
+}
+
+.info:hover::after{
+
+    background-color: orangered;
+
+}
+
+.info .title{
+
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.info .title img{
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.info .infromtion{
+
+    position: relative;
+    display:grid;
+    gap: 15px;
+    padding: 15px 0px;
+    margin: 20px 0px;
+    border-top: #eee 1px solid;
+    border-bottom: #eee 1px solid;
+
+}
+
+.info .infromtion::before{
+
+    content: "VIP";
+    position: absolute;
+    color:#f59e0b;
+    font-size: 65px;
+    right: 10px;
+    top: 20%;
+    opacity: 30%;
+
+}
+
+.info .infromtion div{
+
+    display:flex;
+    gap: 5px;
+    color: #777777;
+
+}
+
+.info footer{
+
+    position: relative;
+    display:flex;
+    gap: 10px;
+    justify-content: end;
+    font-size: 13px;
+    margin: 10px 0px;
+
+}
+
+.info footer::before{
+
+    content: "Joined 02/10/2021";
+    position: absolute;
+    left:0px;
+    top: 5px;
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.info footer span:first-child{
+
+    background-color: orangered;
+    color:white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.info footer span:last-child{
+
+    background-color: rgb(113, 255, 47);
+    color:white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
