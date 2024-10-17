@@ -1,0 +1,68 @@
+.card{
+
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.card::before{
+
+    content: "\f019";
+    font-weight: 900;
+    font-family: var(--fa-style-family-classic);
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #777777dc;
+    font-size: 16px;
+
+}
+
+.card div:first-of-type{
+
+    position: relative;
+    margin: 35px 0px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card div:first-of-type img{
+
+    width: 65px;
+    height: 65px;
+
+}
+
+.card div:first-of-type p:last-of-type{
+
+    position: absolute;
+    color: gray;
+    opacity: 90%;
+    font-size: 12px;
+    bottom: -25px;
+    left: 10px;
+    letter-spacing: 1px;
+
+}
+
+.card div:last-of-type{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    color: #777;
+    border-top: 1px solid #eee;
+
+}
+
+.card div:last-of-type span{
+
+    font-size: 13px;
+    color:#777777b9;
+
+}
