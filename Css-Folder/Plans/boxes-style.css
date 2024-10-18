@@ -1,0 +1,115 @@
+.box{
+
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.box .title{
+
+    padding: 20px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    border: white 3px solid;
+    border-radius: 10px;
+
+}
+
+.box:nth-child(1) .title{
+
+    background-color: #22c55e;
+    outline: #22c55e 3px solid;
+
+}
+
+.box:nth-child(2) .title{
+
+    background-color: #0075ff;
+    outline: #0075ff 3px solid;
+
+}
+
+.box:nth-child(3) .title{
+
+    background-color: orangered;
+    outline: orangered 3px solid;
+
+}
+
+.box .title h2{
+
+    font-size: 25px;
+
+}
+
+.box .title span{
+
+    position: relative;
+    font-size: 45px;
+
+}
+
+.box .title span::before{
+
+    content: "$";
+    position: absolute;
+    top:-5px;
+    left: -15px;
+    font-size: 20px;
+
+}
+
+.box .features{
+
+    margin: 20px 0px;
+
+}
+
+.box .features div{
+
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #77777736;
+
+}
+
+.box .features div i:last-of-type{
+
+    margin-left:auto;
+    color: #77777777;;
+
+}
+
+.box p:last-child{
+
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width:fit-content;
+
+}
+
+.box:nth-child(1) p:last-child{
+
+    background-color: #22c55e;
+
+}
+
+.box:nth-child(2) p:last-child{
+
+    background-color: #0075ff;
+
+}
+
+.box:nth-child(3) p:last-child{
+
+    background-color: orangered;
+
+}
