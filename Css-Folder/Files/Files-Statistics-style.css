@@ -124,7 +124,7 @@
 .Files-Statistics a:hover i{
 
     animation-name: move;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 
