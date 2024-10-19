@@ -117,6 +117,14 @@
 
 }
 
+@media(max-width:600px){
+.sidebar i{
+
+    margin: 0px auto;
+
+}
+}
+
 .sidebar p{
 
     color: black;
