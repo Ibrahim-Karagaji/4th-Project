@@ -111,6 +111,13 @@
     background-color: orangered;
 }
 
+@media(max-width:392px){
+.Last-Project-Progress div:nth-child(4):after{
+    
+    height: 42px;
+}
+}
+
 .Last-Project-Progress .spical::after{
     
     position: static;
