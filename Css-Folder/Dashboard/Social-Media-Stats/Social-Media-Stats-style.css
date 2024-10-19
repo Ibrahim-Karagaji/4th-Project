@@ -22,7 +22,19 @@
 .Social-Media-Stats .app{
 
     display: grid;
-    gap: 10px;
+    gap: 5px;
+
+}
+
+.Social-Media-Stats .app p{
+
+    font-size: 14px;
+
+}
+
+.Social-Media-Stats .app i{
+
+    width: 35px;
 
 }
 
@@ -40,7 +52,6 @@
     padding:10px;
     color: white;
     background-color: #1da0f2;
-    width: 7%;
     text-align: center;
 
 }
@@ -76,7 +87,6 @@
     padding:10px;
     color: white;
     background-color: #1877f2;
-    width: 7%;
     text-align: center;
 
 }
@@ -112,7 +122,6 @@
     padding:10px;
     color: white;
     background-color: #ff0000;
-    width: 7%;
     text-align: center;
 
 }
@@ -135,7 +144,6 @@
 }
 
 .Social-Media-Stats .app .linkedin{
-
     
     display: flex;
     align-items: center;
@@ -149,7 +157,6 @@
     padding:10px;
     color: white;
     background-color: #0077b5;
-    width: 7%;
     text-align: center;
 
 }
